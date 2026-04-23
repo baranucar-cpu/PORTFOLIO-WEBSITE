@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <!--Head-->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Baran's Portfolio</title>
+        <title>Baran Ucar Portfolio</title>
         <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
     </head>
 
-    <!--Body-->
     <body class="Background">
         
-        <!--Navbar-->
+        <!-- Navbar -->
         <div class="Navbar">
             <a class="active" href="#Home">Home</a>
             <a href="#About">About</a>
@@ -20,101 +18,103 @@
             <a href="#Contact">Contact</a>
         </div>
 
-        <!--Breaks inserted to add space between navbar and the first heading-->
-        <br>
-        <br>
+        <br><br>
 
-        <!--Background video-->
+        <!-- Background video -->
         <div id="Home">
             <video autoplay muted loop id="Typing_Video">
                 <source src="images/video/Typing.mp4" type="video/mp4">
-                <!--Display message if video fails to run-->
                 Your browser does not support HTML5 video.
             </video>
         </div>
 
-        <!--Video text-->
+        <!-- Video text -->
         <div class="Video_Text">
             <h1 class="white-text">Baran's Portfolio</h1>
             <strong>
                 <p class="center">
-                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
-                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
-                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    <q>
+                        The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority.
                     </q>
-                    <br> -Joseph Weizenbaum
-                    <br>
-                    <br> My name is Baran. Welcome to my portfolio website. I enjoy building clean, practical and modern web projects.Here you'll find information about me, the work I've done, and links to my GitHub profile.
-                    <br>
-                    <br> Thank you for stopping by and enjoy! 
+                    <br> - Joseph Weizenbaum
+                    <br><br>
+                    My name is Baran. Welcome to my portfolio website. I enjoy building clean, practical and modern web projects.
+                    <br>Here you'll find information about me, the work I've done, and links to my GitHub profile.
+                    <br><br>
+                    Thank you for stopping by and enjoy!
                 </p>
             </strong>
         </div>
 
-        <!--About section-->
+        <!-- About section -->
         <div class="Row" id="About">
-            <!--Left column-->
             <div class="Column_2">
-                <img src="images/html_custom.png" alt="Replace with your own image and description">
+                <img src="images/profile_photo.jpg" alt="Baran Ucar Profile Photo">
             </div>
-            <!--Right column-->
+
             <div class="Column_1">
                 <h1>About</h1>
                 <p>
-                    I'm Baran, a developer based in Toronto. I enjoy building practical, clean and efficient web projects.
+                    I'm Baran, a developer based in Hamilton, Canada. I enjoy building practical, clean and efficient web projects.
                     <br><br>
-
- 
-                    <br>I'm actively learning HTML, CSS, JavaScript and modern development workflows.I enjoy problem-solving, creating systems that make life easier, and continuously improving my craft.
-                    <br>
-                    <br>If you'd like to collaborate or have a project in mind, feel free to <a href="#Contact">Contact</a> me below!
+                    I'm actively learning HTML, CSS, JavaScript and modern development workflows. I enjoy problem-solving, creating systems that make life easier, and continuously improving my craft.
+                    <br><br>
+                    If you'd like to collaborate or have a project in mind, feel free to <a href="#Contact">contact</a> me below!
                 </p>
             </div>
         </div>
 
-        <!--GitHub section-->
+        <!-- GitHub section -->
         <div class="Row" id="GitHub">
-            <!--Left column-->
             <div class="Column_1">
                 <h1>GitHub</h1>
                 <p>
                     You can view my coding projects on my GitHub profile here:
-                    <br>
-                    <p class="center"><a href="https://github.com/baranucar-cpu" target="_blank">My GitHub Profile</a></p>
+                </p>
+                <p class="center">
+                    <a href="https://github.com/baranucar-cpu" target="_blank">My GitHub Profile</a>
                 </p>
             </div>
-            <!--Right column-->
+
             <div class="Column_2">
-                <a href="https://github.com/baranucar-cpu" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+                <a href="https://github.com/baranucar-cpu" target="_blank">
+                    <img src="images/GitHub.png" alt="GitHub Logo">
+                </a>
             </div>
         </div>
 
-        <!--Contact section-->
+        <!-- Contact section -->
         <div class="Row" id="Contact">
-            <!--Contact image, left column-->
             <div class="Column_2 Column_tall">
-                <img src="images/html_custom.png" alt="Contact_Image">
+                <img src="images/contact_photo.jpg" alt="Contact Section Image">
             </div>
-            <!--Contact form, right column-->
+
             <div class="Column_1 Column_tall">
                 <h1>Contact</h1>
-                <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
-                    <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name here">
-                    <label>Email:</label>
-                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
-                    <label>Message:</label>
-                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
-                        <input type="submit" value="SUBMIT">
+
+                <form action="" method="POST">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" placeholder="Please enter your name here">
+
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="text" placeholder="Please enter your email here">
+
+                    <label for="message">Message:</label>
+                    <input id="message" name="message" type="text" placeholder="Please write your message here">
+
+                    <input type="submit" value="SUBMIT">
                 </form>
             </div>
         </div>
 
-        <!--Footer section-->
+        <!-- Footer -->
         <footer>
-                <p class="center">&copy 2025 Baran — All Rights Reserved., <a href="https://github.com/baranucar-cpu" target="_blank">My GitHub Profile</a>
+            <p class="center">
+                &copy; 2025 Baran Ucar — All Rights Reserved.
+                <a href="https://github.com/baranucar-cpu" target="_blank">My GitHub Profile</a>
             </p>
         </footer>
+
     </body>
 </html>
